@@ -8,39 +8,11 @@ body {
     background-color: rgb(224, 224, 223);
 }
 
-#bmwh1 {
-    font-size: 2rem;
-    color: darkblue;
-
-}
-
-.bmwh2 {
-    font-size: 1rem;
-    color: mediumblue;
-    font-weight: 600;
-
-}
-
-.bmwdiv {}
-
-.bmwimgbal {
-    float: left;
-    max-height: 200px;
-    object-fit: cover;
-    }
-
-.bmwimgjobb {
-    float: right;
-    max-height: 200px;
-    object-fit: cover;
-}
-
-.bmwul {}
-
 .gombok {
+    display:inline-block;
     padding: 2rem;
     margin: 1rem;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: rgb(16, 134, 95);
     text-align: center;
     max-width: 150px ;
@@ -48,6 +20,12 @@ body {
     font-weight: 700;
     font-size: 25px;
     color: white;
+}
+
+.gombok:hover{
+  color: rgb(16,134,95);
+  background-color: white;
+
 }
 .knitting-page {
   font-family: "Segoe UI", Arial, sans-serif;
@@ -293,17 +271,19 @@ body {
 
 .main {
     /*background-color: bisque;*/
-    display:inline-block;
+    display:grid;
     grid-area: m;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: max-content 1fr repeat(3, 1fr);
+    color: white;
+    text-decoration: none;
+    /*align-items:start;*/
     padding-block: 1rem;
     padding-left: 2rem;
     /*border-bottom: 1px solid grey;*/
-    word-spacing: 5rem;
+    column-gap: 5rem;
     text-align: center;
     align-items:end;
     background-color:#0A3D91;
-    color: white;
     font-weight: 600;
     border-radius: 10px 10px 0px 0px;
     padding-block: 1rem;
@@ -320,7 +300,14 @@ body {
 }
 
 .main a {
-  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.main a:hover {
+  color: rgb(255, 140, 0);
 }
 
 
@@ -413,19 +400,37 @@ body {
     color: white;
     padding-top: 2rem;
 }
+
+.sidemenu ul {
+list-style: none;
+padding-left: 0;
+margin: 0;
+text-align: center;
+}
+
 .sidemenu li{
     /*padding-right: 1rem;*/
     font-weight: 300;
+    width: 100%;
 
 }
+.sidemenu a {
+  display: block;
+  padding-left: 2rem;
+  text-align: left;
+}
 
+.sidemenu a:hover{
+background-color: #2F66F3;
+}
+/*
 .sidemenu li:hover {
-    background-color: #2F66F3;
+    
     width: 100%;
         
 
 }
-
+*/
 .sidemenu i {
     margin-right: 8px;
 }
@@ -514,11 +519,11 @@ body {
     font-weight: 600;
     color: #E74C3C;
 }
-
+/*
 ul {
-    list-style-type: none;
+    
 }
-
+*/
 .sidelink {
   color: white;
   text-decoration: none;
@@ -535,10 +540,11 @@ ul {
   margin-top: -1rem;
   border-radius: 0px 0px 10px 10px;
 }
-
+/*
 .dashlogo {
   float: left;
-}
+  margin-block: -0.7rem;
+  }
 
 .toplink {
   vertical-align: bottom;
@@ -546,3 +552,4 @@ ul {
   color: white;
    
 }
+  */
