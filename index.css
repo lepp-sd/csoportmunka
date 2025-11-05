@@ -293,6 +293,7 @@ body {
 
 .main {
     /*background-color: bisque;*/
+    display:inline-block;
     grid-area: m;
     grid-template-rows: repeat(5, 1fr);
     padding-block: 1rem;
@@ -300,6 +301,7 @@ body {
     /*border-bottom: 1px solid grey;*/
     word-spacing: 5rem;
     text-align: center;
+    align-items:end;
     background-color:#0A3D91;
     color: white;
     font-weight: 600;
@@ -309,10 +311,16 @@ body {
     top: 0;
     /*width: 100%;*/
     
+    
 }
 
 .main i{
     margin-right: 8px;
+    
+}
+
+.main a {
+  display: inline-block;
 }
 
 
@@ -448,6 +456,7 @@ body {
 .summary th, .summary td, .history th, .history td {
   padding: 10px 12px;
   border-bottom: 1px solid #e0e0e0;
+  font-size: 0.75rem;
 }
 
 .summary thead, .history thead {
@@ -525,4 +534,15 @@ ul {
   padding-block: 0.5rem;
   margin-top: -1rem;
   border-radius: 0px 0px 10px 10px;
+}
+
+.dashlogo {
+  float: left;
+}
+
+.toplink {
+  vertical-align: bottom;
+  text-decoration: none;
+  color: white;
+   
 }
