@@ -406,7 +406,7 @@ body {
     padding-top: 2rem;
 }
 .sidemenu li{
-    padding-right: 1rem;
+    /*padding-right: 1rem;*/
     font-weight: 300;
 
 }
@@ -498,6 +498,12 @@ body {
     font-size: 30px;
     font-weight: 600;
     color: #006B3C;
+}
+
+.sectionminus {
+    font-size: 30px;
+    font-weight: 600;
+    color: #E74C3C;
 }
 
 ul {
