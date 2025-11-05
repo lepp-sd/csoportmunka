@@ -297,12 +297,12 @@ body {
     grid-template-rows: repeat(5, 1fr);
     padding-block: 1rem;
     padding-left: 2rem;
-    border-bottom: 1px solid grey;
+    /*border-bottom: 1px solid grey;*/
     word-spacing: 5rem;
     text-align: center;
     background-color:#0A3D91;
     color: white;
-    font-weight: 800;
+    font-weight: 600;
     border-radius: 10px 10px 0px 0px;
     padding-block: 1rem;
     position: sticky;
@@ -386,7 +386,7 @@ body {
     text-align: center;
     /*border-block: 1px solid rgb(209, 209, 209);*/
     border-right: 1px solid rgb(230, 230, 230);
-    box-shadow: 0 2px 8px rgba(0,0,0,0..08);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .padding i {
@@ -414,7 +414,7 @@ body {
 .sidemenu li:hover {
     background-color: #2F66F3;
     width: 100%;
-    
+        
 
 }
 
@@ -508,4 +508,21 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.sidelink {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboardfooter {
+  width: 100%;
+  margin: auto;
+  background-color: #1E2A45;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-block: 0.5rem;
+  margin-top: -1rem;
+  border-radius: 0px 0px 10px 10px;
 }
