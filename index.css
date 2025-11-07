@@ -9,6 +9,22 @@
   font-weight: 400 700;
   font-style: normal;
 }
+
+
+@font-face{
+  font-family: 'Brotato';
+  src: url('./Fonts/Brotato/Chewy-Regular.ttf')
+  format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brotato';
+  src: url('./Fonts/Brotato/Margarine-Regular.ttf') format('truetype');
+  unicode-range: U+0151, U+0170, U+00DA, U+00D6, U+00DC;
+}
+
+
 body {
   background-color: rgb(224, 224, 223);
 }
@@ -515,6 +531,74 @@ ul {
   padding-block: 0.5rem;
   margin-top: 1rem;
   border-radius: 0px 0px 10px 10px;
+}
+
+
+.brotatocss{
+  font-family: "Brotato";
+  font-size: large;
+  color: #080808;
+  background-color: rgb(58, 55, 51);
+  margin-inline: 4rem;
+}
+
+.brotatocss nav{
+  border-radius: 24px;
+  background-color: #43639d;
+  padding: 1rem;
+}
+
+.brotatocss nav ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.brotatocss nav ul li a{
+  color: #333;
+  border-radius: 46px;
+  background-color: #999;
+  font-size: large;
+  padding: 0,125rem;
+  text-decoration: none;
+  
+}
+
+.brotatocss .brotkep img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.brotatocss .vonal{
+  border-bottom: 2px solid #999;
+  margin: 5px;
+}
+
+.brotatocss .bemutato{
+  background-color: #999;
+  border-radius: 6px;
+}
+
+.brotatocss .bemutato h3{
+  font-style: italic;
+  font-size: x-large;
+}
+
+
+
+.brotatocss footer{
+  background-color: #43639d;
+  padding-block: 0.125rem;
+  text-align: center;
+  border-radius: 46px;
+  margin-top: 0,625rem;
+  font-size: small;
 }
 
 /*
