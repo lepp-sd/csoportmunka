@@ -447,7 +447,7 @@ body {
   background-color: #F3F6FF;
 }
 
-.summary td:first-child,
+.summary td:first-child
 {
 font-weight: bold;
 text-align: left;
